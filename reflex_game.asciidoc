@@ -15,6 +15,9 @@ Once we understand what's required to light LEDs, wait a random amount of time, 
 This MintDuino Notebook will provide you with the sample code required to test various circuits and electronics components, but it will not be able to provide a comprehensive tutorial on programming the MintDuino (or an Arduino).  If you need a better understanding of the programming language used to create MintDuino sketches, you’ll want to turn to a variety of online and printed sources designed to teach beginning Arduino programming.  A few of these resources can be found at the end of this document.
 ====
 
+* [[Subtask 1|reflex_subtak_1]]
+
+
 
 === Sub-Task 2: Randomly Light an LED
 Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.  You can download the program for Sub-Task 2 at [URL here] or simply enter the code below into the Arduino IDE:
