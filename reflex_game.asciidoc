@@ -39,7 +39,7 @@ As you can see, the beginnings of the MintDuino Reflex Game are starting to appe
 
 And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Task 3 and learn how to light that LED by pressing a pushbutton.  Unplug the USB cable from the FTDI/MintDuino and make no changes to the wiring of the LED and resistor.
 
-* [[ Sub Task 1 | reflex_game_subtask_1]]
+* [[ Sub Task 1|reflex_game_subtask_1]]
 
 ==== Troubleshooting Sub-Task 2
 If you managed to get the LED to light in Sub-Task 1, then any problems you’ll likely have with Sub-Task 2 will exist in the program itself.  
