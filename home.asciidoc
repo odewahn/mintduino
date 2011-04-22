@@ -1,4 +1,4 @@
-= Mintduino Project
+== Introduction
 
 [[intro]]
 
