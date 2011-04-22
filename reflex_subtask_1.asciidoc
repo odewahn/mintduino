@@ -1,4 +1,3 @@
-=== Sub-Task 1: Light an LED
 We’ll start with Sub-Task 1 and assemble a small circuit to light a single LED.  The components you will need include:
 
 * 1 MintDuino - assembled [URL link to assembly instructions here]
