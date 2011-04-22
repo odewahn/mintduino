@@ -10,4 +10,4 @@ That's why it's always a good idea to break a project idea down into manageable 
 And that's exactly what you're going to do in this MintDuino Notebook.  You're going to be shown The Big Project... but you're not going to be allowed to build it just yet.  The Big project has sub-tasks, and you're going to first learn how to get the sub-tasks to work.  Once you've done that, well... then you'll be ready for the finale where you bring all you've learned together and tackle... The Big Project.
 So...what is The Big Project?  Keep reading.
 
-* [Reflex game|reflex_game]
+* [[Reflex game | reflex_game]]
