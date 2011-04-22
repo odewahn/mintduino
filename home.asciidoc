@@ -2,4 +2,4 @@ Here's an outline:
 
 * [[Introduction | intro]]
 
-* [[Reflex game | reflex_game]]
+* [[The big project | reflex_game]]
