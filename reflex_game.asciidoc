@@ -1,5 +1,3 @@
-== The MintDuino Reflex Game
-
 The MintDuino Reflex Game will test the reflexes of two players.  The game takes place on the small Mini-Breadboard, with each player waiting to push a button when an LED in the center of the breadboard lights up.  The central yellow LED will light up after a random amount of time has passed (something between say 5 and 10 seconds).  Whichever player pushes their button first after the central LED lights up wins and a green LED will light up on the side of the player who wins.  But a player can't simply push the button over and over before the LED lights up!  Pushing the button before the center LED lights up automatically gives the other player the win.
 
 That's The Big Project, but let's break it down into four sub-tasks that will help us understand the proper wiring of the MintDuino and the electronics components and the programming elements required:
