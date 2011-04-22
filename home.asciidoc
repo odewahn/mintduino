@@ -1,3 +1,5 @@
+= Title of this book
+
 == Introduction
 
 [[intro]]
