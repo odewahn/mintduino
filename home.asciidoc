@@ -2,18 +2,18 @@
 
 [[intro]]
 
-= The MintDuino Reflex Game
+== The MintDuino Reflex Game
 
 [[reflex_game]]
 
-== Sub-Task 1: Light an LED
+=== Sub-Task 1: Light an LED
 
 [[reflex_subtask_1]]
 
-== Sub-Task 2: Randomly Light an LED
+=== Sub-Task 2: Randomly Light an LED
 
 [[reflex_subtask_2]]
 
-== Sub-Task 3: Light an LED with a Pushbutton
+=== Sub-Task 3: Light an LED with a Pushbutton
 
 [[reflex_subtask_3]]
