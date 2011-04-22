@@ -1,4 +1,3 @@
-=== Sub-Task 3: Light an LED with a Pushbutton
 Sub-Task 3 will add to the same circuit you assembled for Sub-Tasks 1 and 2 by introducing the single pushbutton component to the mini breadboard, as seen in <<Figure7>>.
 
 [[Figure7]]
