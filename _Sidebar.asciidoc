@@ -2,23 +2,12 @@
 
 == Useful Links
 * [[TOC / Index |home]]
+* https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-sync-github[Push repo to github]
 * http://powerman.name/doc/asciidoc[AsciiDoc Cheat Sheet]
  
 == Images and Figures
 . http://vmg044.west.ora.com/codebox/upload_image.html[Upload images]
 . https://intranet.oreilly.com/confluence/display/OCO/asciidoc-add-figs[Commit uploads]
 
-== Synch
-* https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-sync-github[Push repo to github]
 
-== Validate
-* https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-validate[Validate DocBook]
-* [[View error log|validation_errors]]
-
-== Publish
-. [[Update book wrapper|book]]
-. https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-build-process[Start build process]
-. https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-pull-results[Pull production results]
-. [[View error log | dcps_build_log]]
-. http://example.com[View PDF]
 
