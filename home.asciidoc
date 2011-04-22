@@ -18,4 +18,4 @@
 
 === Sub-Task 3: Light an LED with a Pushbutton
 
-[[reflex_subtask_3.asciidoc]]
+[[reflex_subtask_3]]
