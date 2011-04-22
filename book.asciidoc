@@ -2,7 +2,7 @@
 
 == The Big Project
 
-include::home.asciidoc[]
+include::intro.asciidoc[]
 
 == The MintDuino Reflex Game
 
