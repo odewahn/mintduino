@@ -9,6 +9,7 @@ That's why it's always a good idea to break a project idea down into manageable 
 
 And that's exactly what you're going to do in this MintDuino Notebook.  You're going to be shown The Big Project... but you're not going to be allowed to build it just yet.  The Big project has sub-tasks, and you're going to first learn how to get the sub-tasks to work.  Once you've done that, well... then you'll be ready for the finale where you bring all you've learned together and tackle... The Big Project.
 So...what is The Big Project?  Keep reading.
+
 == The MintDuino Reflex Game
 
 The MintDuino Reflex Game will test the reflexes of two players.  The game takes place on the small Mini-Breadboard, with each player waiting to push a button when an LED in the center of the breadboard lights up.  The central yellow LED will light up after a random amount of time has passed (something between say 5 and 10 seconds).  Whichever player pushes their button first after the central LED lights up wins and a green LED will light up on the side of the player who wins.  But a player can't simply push the button over and over before the LED lights up!  Pushing the button before the center LED lights up automatically gives the other player the win.
@@ -22,6 +23,7 @@ That's The Big Project, but let's break it down into four sub-tasks that will he
 
 Once we understand what's required to light LEDs, wait a random amount of time, and test for pushbuttons to be pressed, we can pull it all together and build the MintDuino Reflex Game.  The fact that we'll have multiple LEDS shouldn't be a problem - if we know how to light one, well... we can light two... or three.  And if we know how to determine if a pushbutton has been pressed, we can probably figure out how to detect which of two pushbuttons has been pressed.  Then we add some code to start the game, check for a pre-mature button push, and reset the game... and we're in business.
 
+[[NOTE1]]
 ====
 This MintDuino Notebook will provide you with the sample code required to test various circuits and electronics components, but it will not be able to provide a comprehensive tutorial on programming the MintDuino (or an Arduino).  If you need a better understanding of the programming language used to create MintDuino sketches, you’ll want to turn to a variety of online and printed sources designed to teach beginning Arduino programming.  A few of these resources can be found at the end of this document.
 ====
