@@ -1,0 +1,29 @@
+=== Sub-Task 2: Randomly Light an LED
+Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.  You can download the program for Sub-Task 2 at [URL here] or simply enter the code below into the Arduino IDE:
+
+----
+include::code/example2.pde[]
+----
+
+After up upload this sketch to the MintDuino, the following will occur:
+
+. The Wait Time for the LED will be initialized with a value of 2000 milliseconds (2 seconds).
+. A random seed will be generated using Analog Pin 1 and random noise from that unused pin.
+. A loop will start and a random value between 0 and 5000 milliseconds will be added to the current Wait Time value of 2000 milliseconds.
+. Three fast flashes occur, alerting game players to begin watching for the game LED to light.
+. There will be a random pause (based on a value between 2000 and 7000 milliseconds).
+. The LED will light and hold for two seconds.
+. The LED will turn off and a five second delay will occur.
+. The Wait Time is reset to a minimum of two seconds.
+. The loop begins again with a random value between 0 and 5000 milliseconds) added to the reset Wait Time and three fast flashes of the LED.
+
+As you can see, the beginnings of the MintDuino Reflex Game are starting to appear.  We have a random amount of time that will pass before the LED lights up – this is what the two players will be waiting to see before they push their buttons.
+
+And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Task 3 and learn how to light that LED by pressing a pushbutton.  Unplug the USB cable from the FTDI/MintDuino and make no changes to the wiring of the LED and resistor.
+
+* [[ Sub Task 1|reflex_game_subtask_1]]
+
+==== Troubleshooting Sub-Task 2
+If you managed to get the LED to light in Sub-Task 1, then any problems you’ll likely have with Sub-Task 2 will exist in the program itself.  
+
+If you’re not seeing the initial three quick flashes of the LED, check your code to make certain you’re not using the ledWait variable to control the on-and-off lighting.  If you’re not getting a random wait after the three initial flashes (for example, if the delay is always the same number of seconds), make certain you included the last bit of code that resets the ledWait variable to 2000.
