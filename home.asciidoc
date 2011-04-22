@@ -1,7 +1,3 @@
-= Mintduino Project
-
-== The Big Project
-
 The MintDuino is deceiving - this little tin of electronics is capable of providing the brains of an unlimited number of devices limited only by your imagination... and, of course, your bank account.
 
 While the MintDuino is certainly capable of being used during a moment of inspiration, you'll find that the real power of the device comes when you sit down, figure out what you want to make, and then start tackling your project a bit at a time.  Anyone who has done circuit building or programming (or both) knows that it rarely pays to just start inserting components and writing complex sketches (programs in Arduino-speak).  When trouble arises in a circuit or a program, it can be a time-consuming process to track down the error... or more likely, errors... when you have too much complexity.
