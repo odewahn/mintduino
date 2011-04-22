@@ -1,4 +1,4 @@
-[[_Logo.png]]
+[[ _Logo.png ]]
 
 == Useful Links
 * [[TOC / Index |home]]
