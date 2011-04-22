@@ -4,7 +4,9 @@
 
 [[intro]]
 
-== [[The MintDuino Reflex Game|reflex_game]]
+== The MintDuino Reflex Game
+
+[[reflex_game]]
 
 === Sub-Task 1: Light an LED
 
