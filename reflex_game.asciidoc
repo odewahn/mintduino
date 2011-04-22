@@ -15,7 +15,7 @@ Once we understand what's required to light LEDs, wait a random amount of time, 
 This MintDuino Notebook will provide you with the sample code required to test various circuits and electronics components, but it will not be able to provide a comprehensive tutorial on programming the MintDuino (or an Arduino).  If you need a better understanding of the programming language used to create MintDuino sketches, you’ll want to turn to a variety of online and printed sources designed to teach beginning Arduino programming.  A few of these resources can be found at the end of this document.
 ====
 
-* [[Subtask 1|reflex_subtak_1]]
+* [[Subtask 1|reflex_subtask_1]]
 
 
 
