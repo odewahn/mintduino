@@ -1,0 +1,92 @@
+=== Sub-Task 1: Light an LED
+We’ll start with Sub-Task 1 and assemble a small circuit to light a single LED.  The components you will need include:
+
+* 1 MintDuino - assembled [URL link to assembly instructions here]
+* 1 LED (Yellow recommended, but any color will work)
+* 1 9V battery
+* 1 FTDI adapter [URL link here]
+* 1 USB cable (A to mini-B type)
+
+Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
+
+* 1 Mini breadboard
+* 1 9V battery connector
+* 1 Resistor 100ohm (minimum)
+* 2 Jumper Wires
+
+<<Figure1>> shows the components required to assemble Sub-Task 1.  The FTDI Friend (or FTDI Adapter) will be used later to upload the program to the MintDuino.
+
+[[Figure1]]
+. Components required to assemble circuit for Sub-Task 1
+image:figs/Figure1.jpg[width="scaledwidth=90%"]
+
+We’ll start the assembly of Sub-Task 1 by inserting the LED and resistor into the mini breadboard as shown in <<Figure2>>.
+ 
+[[Figure2]]
+.Resistor and LED inserted into the motherboard. 
+image:figs/Figure2.jpg[scaledwidth="90%"]
+
+Before we continue, there are a few things you need to know when using the mini breadboard:
+
+The mini breadboard does not have letters or numerals to label the various rows and columns (like the MintDuino’s breadboard).
+
+When wiring, rotate the mini breadboard so that it is taller than it is wider (seen in Figure 2); with this orientation, each row is broken into two segments of five holes.
+
+The file holes in each segment share a common connection point; when inserting components, make certain that leads are inserted in different segments and not in the same grouping of five holes or the component will be shorted.
+
+Take notice also that the LED has one leg that is shorter than the other.  The longer leg is referred to as the anode, or + lead (positive) and the shorter leg is referred to as the cathode or – lead (negative).  When connecting an LED to a circuit, try to remember to connect the + lead to the voltage/supply side of a circuit and the – lead to the GND (ground) side of a circuit.
+
+Because we haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.
+
+====
+One useful way to always remember how an LED is inserted into the mini breadboard is to insert the longer (+) lead closer to the MintDuino.  If you try to be consistent using this method, you’ll always be able to look at an inserted LED and determine which lead is the anode and which is the cathode.
+====
+
+We’ve also inserted the resistor so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure2>> that the resistor’s other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
+
+Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino.  One jumper wire is inserted into the same row as the LED’s anode lead.  The other wire is inserted into the same row as the resistor’s non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>.
+
+[[Figure3]]
+.Two jumper wires will connect the mini breadboard to the MintDuino. 
+image:figs/Figure3.jpg[scaledwidth="90%"]
+
+Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at [URL here] then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
+
+====
+Pin 13 corresponds to Digital Pin 7 – this information will be required shortly when we write the program to test the LED.
+====
+
+Plug the other jumper wire into any hole on the GND column of the MintDuino.  Double-check this and make absolute certain that you’ve connected it to a GND column and not the PWR (5v or 3.3v) column.
+
+<<Figure4>> shows the two jumper wires now connecting the mini breadboard to the MintDuino.
+
+[[Figure4]]
+.MintDuino and mini breadboard circuit completed with jumper wires. 
+image:figs/Figure4.jpg[scaledwidth="90%"]
+
+Now it’s time to upload the Sub-Task 1 program (sketch).  This sketch can be downloaded at [URL here] or you can simply open your Arduino IDE and enter the following sketch/code:
+
+----
+include::code/example1.pde[]
+----
+
+Add the FTDI Friend (FTDI Adapter) to your MintDuino as seen in <<Figure5>>.  You will need this to connect your computer to the MintDuino for uploading the sketch.
+
+[[Figure5]]
+.Add the FTDI Friend (Adapter) to the MintDuino and upload the sketch. 
+image:figs/Figure5.jpg[scaledwidth="90%"]
+
+After uploading the sketch to the MintDuino, leave the USB cable plugged into the FTDI/MintDuino and you should see a fast-flashing LED on the mini breadboard as shown in <<Figure6>>.
+
+[[Figure6]]
+.A flashing LED lets you know that the sketch is working.
+image:figs/Figure6.jpg[scaledwidth="90%"]
+
+Leave the circuit wired up as you’ll use it again with Sub-Task 2 but unplug the USB cable connecting the FTDI/MintDuino to your computer.
+
+==== Troubleshooting Sub-Task 1
+If the LED is not flashing, check to make certain that you set the Digital Pin to 7 in the sketch and that the jumper wire from the LED anode row is connected to Pin 13 on the ATmega328 chip on the MintDuino.  Also make certain that the jumper wire sharing a row with the resistor on the mini breadboard is connected to GND (ground) on the MintDuino’s breadboard.
+
+If the jumper wires are properly connected to the MintDuino, check that you’ve properly inserted the LED (longer leg connected to Pin 13 via jumper wire).  You might also exchange the LED for another as a last resort.
+
+Finally, go back and verify that the code uploaded properly to the MintDuino – if you don’t get a compiling error or any error message telling you the upload failed, you can be reasonably certain the sketch is loaded and the problem is likely a connection issue between components or a miswired circuit.
