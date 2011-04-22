@@ -3,3 +3,8 @@ Here's an outline:
 * [[Introduction | intro]]
 
 * [[The big project | reflex_game]]
+
+
+** [[Subtask 1|reflex_subtask_1]]
+** [[Subtask 2|reflex_subtask_2]]
+** [[Subtask 3|reflex_subtask_3]]
