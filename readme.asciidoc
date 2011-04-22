@@ -1,0 +1,4 @@
+* Give files a "jpg" extension, not "JPG"
+* No footnotes
+* Need to figure out code repository ahead of time.
+* Code -- maybe pull this out into separate code files?
