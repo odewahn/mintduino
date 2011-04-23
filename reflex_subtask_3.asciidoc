@@ -2,16 +2,16 @@ Sub-Task 3 will add to the same circuit you assembled for Sub-Tasks 1 and 2 by i
 
 [[Figure7]]
 .A single pushbutton that will light the LED when pressed.
-image:figs/Figure7.jpg[scaledwidth="90%"]
+image::figs/Figure7.jpg[scaledwidth="90%"]
 
 Add the pushbutton to the mini breadboard by inserting it so that the distance between the two top legs is a single hole (on a single row) and the distance between a top and a bottom leg has two holes between it (spanning four rows altogether).  A closeup of this can be seen in <<Figure8>>.
 
 [[Figure8]]
 .The pushbutton is inserted into the mini breadboard a specific way.
-image:figs/Figure8.jpg[scaledwidth="90%"]
+image::figs/Figure8.jpg[scaledwidth="90%"]
 
 <<Figure9>> shows the pushbutton inserted into the mini breadboard.  Make certain to leave the left-most hole open on the top and bottom row where the pushbutton is inserted.  (These will be used to add jumper wires.)
 
 [[Figure9]]
 .Leave an empty hole to the left of the top row and bottom row of the pushbutton. 
-image:figs/Figure9.jpg[scaledwidth="90%"]
+image::figs/Figure9.jpg[scaledwidth="90%"]
