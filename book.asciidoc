@@ -1,6 +1,6 @@
-= Mintduino Project
+= Title of this book
 
-== The Big Project
+== Introduction
 
 include::intro.asciidoc[]
 
