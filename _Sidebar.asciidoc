@@ -1,7 +1,7 @@
 [[ _Logo.png ]]
 
 == Useful Links
-* [[TOC / Index |home]]
+* [[Home / TOC |home]]
 * https://intranet.oreilly.com/confluence/display/OCO/asciidoc-workflow-sync-github[Push repo to github]
 * http://powerman.name/doc/asciidoc[AsciiDoc Cheat Sheet]
 * [[Entire book (book.asciidoc) | book]]
