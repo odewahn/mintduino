@@ -1,4 +1,6 @@
 * Give files a "jpg" extension, not "JPG"
 * No footnotes
 * Need to figure out code repository ahead of time.
-* Code -- maybe pull this out into separate code files?
+* Code pulled  out into separate code files and included, rather than put inline
+* "home" file used to structure main oultin at the "A" and "B" head level
+* Turned troubleshooting sections into notes, rather than separate section
