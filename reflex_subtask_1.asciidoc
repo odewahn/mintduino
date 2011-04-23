@@ -83,9 +83,12 @@ image:figs/Figure6.jpg[scaledwidth="90%"]
 
 Leave the circuit wired up as you’ll use it again with Sub-Task 2 but unplug the USB cable connecting the FTDI/MintDuino to your computer.
 
-==== Troubleshooting Sub-Task 1
+[NOTE]
+.Troubleshooting Sub-Task 1
+==== 
 If the LED is not flashing, check to make certain that you set the Digital Pin to 7 in the sketch and that the jumper wire from the LED anode row is connected to Pin 13 on the ATmega328 chip on the MintDuino.  Also make certain that the jumper wire sharing a row with the resistor on the mini breadboard is connected to GND (ground) on the MintDuino’s breadboard.
 
 If the jumper wires are properly connected to the MintDuino, check that you’ve properly inserted the LED (longer leg connected to Pin 13 via jumper wire).  You might also exchange the LED for another as a last resort.
 
 Finally, go back and verify that the code uploaded properly to the MintDuino – if you don’t get a compiling error or any error message telling you the upload failed, you can be reasonably certain the sketch is loaded and the problem is likely a connection issue between components or a miswired circuit.
+====
