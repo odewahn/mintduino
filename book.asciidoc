@@ -1,5 +1,7 @@
 = Title of this book
 
+Hello, Tim!
+
 == Introduction
 
 include::intro.asciidoc[]
