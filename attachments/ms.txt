@@ -1,0 +1,44 @@
+lucinda rowley -- 7/31/2009
+
+substantial business model changes; 3rd party publisher
+hig level scenraios and business models to scope out the field that they need to look at
+
+overview of what they're trying to achieve
+------------------------------------------
+* basic concept is that they want to flip the focus from dedicated team of writers and editors to community driven
+* want to takes advantage of expertise that exists
+* how can they bring that to the center of the product experience
+* looking primarily at developer tools
+* Interested in embedding this within the products themselves
+
+
+* Have an area on technet or MSDN with customer scenarios that we share that are part of the approach, but they see how we could monetize it to other areas.  Whatever would make it a viable business model
+
+
+* recognize the reality of how customers use content versus a dedicated documents
+
+
+Issues
+-------
+* types of documents that would work for this -- what do users like to do?
+* language issues
+* Product requirements for documentation
+* Which copyright model does this fall into?  Free online for end user, but 
+
+Top level objective
+-------------------
+1 increase customer satisfaction with the documentation - not getting my questions answered
+2 efficiency, budget, house management
+3 Drive much more engagement from the community
+
+
+
+Timeline
+----------
+Scope out the key things that need to happen -- plan for the plan.  Review that with GM in about 3 weeks (Aug 21).  Wants a definition of the problem statement and business goals.  Is this feasible as a product discussion for vision and business model pieces?  To have more detail followup for the end of August -- think about additional ideas.  More specifics on how this might work on our end.:wq
+
+
+
+Neudesic (does ad sales for the .net sites) -- $15 CPM range
+Exposure and visibility model
+Print on demand component / custom content bundle
