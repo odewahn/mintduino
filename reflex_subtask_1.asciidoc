@@ -49,7 +49,7 @@ Next, you’ll use two jumper wires to connect the mini breadboard to the MintDu
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
 image:attachments/Figure3.JPG[scaledwidth="90%"]
 
-Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino]then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
+Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino] then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
 
 ====
 Pin 13 corresponds to Digital Pin 7 – this information will be required shortly when we write the program to test the LED.
