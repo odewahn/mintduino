@@ -8,7 +8,7 @@ Add the pushbutton to the mini breadboard by inserting it so that the distance b
 
 [[Figure8]]
 .The pushbutton is inserted into the mini breadboard a specific way.
-image::attachements/Figure8.JPG[scaledwidth="90%"]
+image::attachments/Figure8.JPG[scaledwidth="90%"]
 
 <<Figure9>> shows the pushbutton inserted into the mini breadboard.  Make certain to leave the left-most hole open on the top and bottom row where the pushbutton is inserted.  (These will be used to add jumper wires.)
 
