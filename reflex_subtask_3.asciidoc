@@ -78,5 +78,9 @@ Upload the sketch to the MintDuino and the following will occur:
 
 Now we’re getting close.  We know how to light an LED, create random time before the LED lights up, and we know how to wire up a button to light up the LED.  But to make this a real game, there must be at least two opponents, and that means adding a second button to the mix… which is exactly what we’ll do in Sub-Task 4.
 
-
+[NOTE]
+====
+If the LED is not lighting up when you press the pushbutton, check your wiring.  The pushbutton must be connected to +5 volts – check that a jumper wire (JUMPV) is connecting the pushbutton to the bottom row of the mini breadboard that is supplying the voltage.
+Also verify that the other jumper wire leaving the pushbutton is sharing a row with RES2 and JUMP4 that should be inserted into pin 6 on the ATmega chip.  
+====
 
