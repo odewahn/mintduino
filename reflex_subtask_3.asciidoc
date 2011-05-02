@@ -63,10 +63,10 @@ include::attachments/SubTask3_draft1.0.pde[]
 
 Now connect the mini breadboard to the MintDuino as follows:
 
-.Connect the JUMPV wire (on bottom row of mini breadboard) to the +5V column on the MintDuino
-.Connect JUMP4 to pin 6 on the ATmega chip (corresponding to Digital Pin 4)
-.Verify the LED jumper wire is connected to pin 13 on the ATmega chip (Digital Pin 7)
-.Verify the GND jumper wire (where RES1 and RES2 terminate) is connected to GND on the MintDuino
+.Connect the JUMPV wire (on bottom row of mini breadboard) to the +5V column on the MintDuino.
+.Connect JUMP4 to pin 6 on the ATmega chip (corresponding to Digital Pin 4).
+.Verify the LED jumper wire is connected to pin 13 on the ATmega chip (Digital Pin 7).
+.Verify the GND jumper wire (where RES1 and RES2 terminate) is connected to GND on the MintDuino.
 
 Upload the sketch to the MintDuino and the following will occur:
 
