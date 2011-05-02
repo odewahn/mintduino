@@ -1,13 +1,13 @@
 Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 include:
 
-*Qty-1 MintDuino - assembled [URL link to assembly instructions here]
-*Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)* 
-*Qty-1 9V battery
-*Qty-1 FTDI adapter [URL link here]
-*Qty-1 USB cable (A to mini-B type)
-*Qty-1 Mini breadboard* 
-*Qty-1 9V battery connector (included with the MintDuino)
-*Qty-1 Resistor 100ohm* 
+* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
+* Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)* 
+* Qty-1 9V battery
+* Qty-1 FTDI adapter [URL link here]
+* Qty-1 USB cable (A to mini-B type)
+* Qty-1 Mini breadboard* 
+* Qty-1 9V battery connector (included with the MintDuino)
+* Qty-1 Resistor 100ohm* 
 *Qty-2 Jumper Wires 
 
 *indicates a component that can be found in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack].
