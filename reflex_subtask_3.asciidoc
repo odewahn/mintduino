@@ -63,19 +63,19 @@ include::attachments/SubTask3_draft1.0.pde[]
 
 Now connect the mini breadboard to the MintDuino as follows:
 
-.Connect the JUMPV wire (on bottom row of mini breadboard) to the +5V column on the MintDuino.
-.Connect JUMP4 to pin 6 on the ATmega chip (corresponding to Digital Pin 4).
-.Verify the LED jumper wire is connected to pin 13 on the ATmega chip (Digital Pin 7).
-.Verify the GND jumper wire (where RES1 and RES2 terminate) is connected to GND on the MintDuino.
+. Connect the JUMPV wire (on bottom row of mini breadboard) to the +5V column on the MintDuino.
+. Connect JUMP4 to pin 6 on the ATmega chip (corresponding to Digital Pin 4).
+. Verify the LED jumper wire is connected to pin 13 on the ATmega chip (Digital Pin 7).
+. Verify the GND jumper wire (where RES1 and RES2 terminate) is connected to GND on the MintDuino.
 
 Upload the sketch to the MintDuino and the following will occur:
 
-.The LED will not light (at first) as it waits for the button to be pressed.
-.The program will loop forever, waiting for the button to be pressed.
-.When the button is pressed, the state is set to HIGH.
-.If the state is HIGH, the lightLED function is called.
-.When the lightLED function is called, the LED stays lit for 1 second and then turns off.
-.The program waits for the button to be pressed again.
+. The LED will not light (at first) as it waits for the button to be pressed.
+. The program will loop forever, waiting for the button to be pressed.
+. When the button is pressed, the state is set to HIGH.
+. If the state is HIGH, the lightLED function is called.
+. When the lightLED function is called, the LED stays lit for 1 second and then turns off.
+. The program waits for the button to be pressed again.
 
 Now we’re getting close.  We know how to light an LED, create random time before the LED lights up, and we know how to wire up a button to light up the LED.  But to make this a real game, there must be at least two opponents, and that means adding a second button to the mix… which is exactly what we’ll do in Sub-Task 4.
 
