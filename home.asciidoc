@@ -19,3 +19,12 @@
 === Sub-Task 3: Light an LED with a Pushbutton
 
 [[reflex_subtask_3]]
+
+=== Sub-Task 4: Light Corresponding LED for Two Pushbuttons
+
+[[reflex_subtask_4]]
+
+=== The MintDuino Reflex Game is Alive!
+
+[[reflex_subtask_5]]
+
