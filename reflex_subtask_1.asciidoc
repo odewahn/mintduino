@@ -19,10 +19,10 @@ Plus, you'll need the following components, all of which are available in the ht
 . Components required to assemble circuit for Sub-Task 1
 image:attachments/Figure1.JPG[width="scaledwidth=90%"]
 
-We’ll start the assembly of Sub-Task 1 by inserting the LED and resistor into the mini breadboard as shown in <<Figure2>>.
+We’ll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure2>>.
  
 [[Figure2]]
-.Resistor and LED inserted into the motherboard. 
+.Resistor (RES1) and LED inserted into the motherboard. 
 image:attachments/Figure2.JPG[scaledwidth="90%"]
 
 Before we continue, there are a few things you need to know when using the mini breadboard:
@@ -41,15 +41,15 @@ Because we haven’t wired up power to the MintDuino yet, just remember (or jot 
 One useful way to always remember how an LED is inserted into the mini breadboard is to insert the longer (+) lead closer to the MintDuino.  If you try to be consistent using this method, you’ll always be able to look at an inserted LED and determine which lead is the anode and which is the cathode.
 ====
 
-We’ve also inserted the resistor so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure2>> that the resistor’s other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
+We’ve also inserted RES1 so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure2>> that RES1's other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
 
-Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino.  One jumper wire is inserted into the same row as the LED’s anode lead.  The other wire is inserted into the same row as the resistor’s non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>.
+Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino.  One jumper wire is inserted into the same row as the LED’s anode lead.  The other wire is inserted into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>.
 
 [[Figure3]]
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
 image:attachments/Figure3.JPG[scaledwidth="90%"]
 
-Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at [URL here] then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
+Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[here]then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
 
 ====
 Pin 13 corresponds to Digital Pin 7 – this information will be required shortly when we write the program to test the LED.
@@ -66,7 +66,7 @@ image:attachements/Figure4.JPG[scaledwidth="90%"]
 Now it’s time to upload the Sub-Task 1 program (sketch).  This sketch can be downloaded at [URL here] or you can simply open your Arduino IDE and enter the following sketch/code:
 
 ----
-include::code/example1.pde[]
+include::code/SubTask1_draft1.0.pde[]
 ----
 
 Add the FTDI Friend (FTDI Adapter) to your MintDuino as seen in <<Figure5>>.  You will need this to connect your computer to the MintDuino for uploading the sketch.
@@ -85,9 +85,10 @@ Leave the circuit wired up as you’ll use it again with Sub-Task 2 but unplug t
 
 [NOTE]
 ==== 
-If the LED is not flashing, check to make certain that you set the Digital Pin to 7 in the sketch and that the jumper wire from the LED anode row is connected to Pin 13 on the ATmega328 chip on the MintDuino.  Also make certain that the jumper wire sharing a row with the resistor on the mini breadboard is connected to GND (ground) on the MintDuino’s breadboard.
+If the LED is not flashing, check to make certain that you set the Digital Pin to 7 in the sketch and that the jumper wire from the LED anode row is connected to Pin 13 on the ATmega328 chip on the MintDuino.  Also make certain that the jumper wire sharing a row with RES1 on the mini breadboard is connected to GND (ground) on the MintDuino’s breadboard.
 
 If the jumper wires are properly connected to the MintDuino, check that you’ve properly inserted the LED (longer leg connected to Pin 13 via jumper wire).  You might also exchange the LED for another as a last resort.
 
 Finally, go back and verify that the code uploaded properly to the MintDuino – if you don’t get a compiling error or any error message telling you the upload failed, you can be reasonably certain the sketch is loaded and the problem is likely a connection issue between components or a miswired circuit.
+
 ====
