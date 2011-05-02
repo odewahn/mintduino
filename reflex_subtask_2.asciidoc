@@ -1,10 +1,24 @@
-Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.  You can download the program for Sub-Task 2 at [URL here] or simply enter the code below into the Arduino IDE:
+Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 include:
+
+* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
+* Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)*
+* Qty-1 9V battery
+* Qty-1 FTDI adapter [URL link here]
+* Qty-1 USB cable (A to mini-B type)
+* Qty-1 Mini breadboard *
+* Qty-1 9V battery connector (included with the MintDuino)
+* Qty-1 Resistor 100ohm *
+* Qty-2 Jumper Wires 
+
+*indicates a component that can be found in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack].
+
+You can download the program for Sub-Task 2 at [URL here] or simply enter the code below into the Arduino IDE:
 
 ----
-include::attachments/example2.pde[]
+include::attachments/SubTask2_draft1.0.pde[]
 ----
 
-After up upload this sketch to the MintDuino, the following will occur:
+After you upload this sketch to the MintDuino, the following will occur:
 
 . The Wait Time for the LED will be initialized with a value of 2000 milliseconds (2 seconds).
 . A random seed will be generated using Analog Pin 1 and random noise from that unused pin.
@@ -18,7 +32,7 @@ After up upload this sketch to the MintDuino, the following will occur:
 
 As you can see, the beginnings of the MintDuino Reflex Game are starting to appear.  We have a random amount of time that will pass before the LED lights up – this is what the two players will be waiting to see before they push their buttons.
 
-And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Task 3 and learn how to light that LED by pressing a pushbutton.  Unplug the USB cable from the FTDI/MintDuino and make no changes to the wiring of the LED and resistor.
+And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Task 3 and learn how to light that LED by pressing a pushbutton.  Unplug the USB cable from the FTDI/MintDuino and make no changes to the wiring of the LED and RES1.
 
 [NOTE]
 ====
