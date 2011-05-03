@@ -37,6 +37,7 @@ After uploading the sketch to the MintDuino, run the program.  When the game fir
 ====
 If you were able to successfully run Sub-Task 4, then most likely any errors you encounter will be in the sketch for the game.  Make certain you’ve uploaded the correct sketch for the game and check that all of your jumper wires are inserted properly in the mini breadboard and the MintDuino.  Check that both pushbuttons are pushed securely into the mini breadboard and make certain that all LEDs are wired up correctly with respect to their anode and cathode leads.
 ====
+
 There’s no arguing that the MintDuino Reflex Game is relatively simple in terms of gameplay.  But think about what you’ve done for a moment – with two pushbuttons, three LEDs, three resistors, and a handful of jumper wires, you transformed the MintDuino and mini breadboard into a functional game.  It’s not complex and it’s certainly not pretty to look at, but it works!  
 
 Hopefully you’re starting to see the power that resides in that small MintDuino tin and maybe pondering some of your own special projects.  If you’re not yet ready to leave the MintDuino Reflex Game and want to dive a little deeper, here are some suggestions on ways to improve the game:
@@ -46,7 +47,7 @@ Hopefully you’re starting to see the power that resides in that small MintDuin
 . Penalize Early Button Pushing - Modify the sketch to check to see if a player pushes his or her button before the Game Light turns on.  If the button is pressed before the Game Light blinks, that player automatically loses and the other player's LED turns on.
 . Move the Game to a Project Box – with a perf-board and a project box, you could easily give the game a permanent home.  With a project box, you could even add an LCD screen to display the score or maybe a speaker that plays a series of beeps instead of lighting the Game LED.
 
-Congratulations on completing the MintDuino Reflex Game!  If you’re looking for more projects for your MintDuino, be sure to check out the Make: Projects website at www.makeprojects.com[www.makeprojects.com] and look over all the Arduino projects for something that catches your eye.  Your MintDuino might not look like the Arduinos you see online, but it’s got the same functionality and can easily be substituted.  You can also find many more projects on the various Arduino-related websites, including the official Arduino site at www.arduino.org[www.arduino.org] and the community run www.arduino.cc[www.arduino.cc], as well as instructables.com[instructables.com].
+Congratulations on completing the MintDuino Reflex Game!  If you’re looking for more projects for your MintDuino, be sure to check out the Make: Projects website at www.makeprojects.com[www.makeprojects.com] and look over all the Arduino projects for something that catches your eye.  Your MintDuino might not look like the Arduinos you see online, but it’s got the same functionality and can easily be substituted.  You can also find many more projects on the various Arduino-related websites, including the official Arduino site at http://www.arduino.org[www.arduino.org] and the community run http://www.arduino.cc[www.arduino.cc], as well as http://instructables.com[instructables.com].
 
 Special thanks to Marc De Vinck, Brian Jepson, and Will Price for their assistance with the MintDuino Reflex Game sketch.
 
