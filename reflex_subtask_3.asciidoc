@@ -43,7 +43,7 @@ Next, add a single 100ohm resistor (this resistor will be referred to as RES2 to
 .Add a second resistor (RES2) to serve as a pulldown resistor for the pushbutton.
 image:attachments/Figure11.JPG[scaledwidth="90%"]
 
-As shown in <<Figure 12>>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (the one not sharing GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).
+As shown in <<Figure12>>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (the one not sharing GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).
 
 [[Figure12]]
 .Wire up the pushbutton to GND and to +5V.
