@@ -66,7 +66,7 @@ image:attachements/Figure4.JPG[scaledwidth="90%"]
 Now it’s time to upload the Sub-Task 1 program (sketch).  This sketch can be downloaded at [URL here] or you can simply open your Arduino IDE and enter the following sketch/code:
 
 ----
-include::code/SubTask1_draft1.0.pde[]
+include::attachments/SubTask1_draft1.0.pde[]
 ----
 
 Add the FTDI Friend (FTDI Adapter) to your MintDuino as seen in <<Figure5>>.  You will need this to connect your computer to the MintDuino for uploading the sketch.

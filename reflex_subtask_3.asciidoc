@@ -31,13 +31,13 @@ image:attachments/Figure8.JPG[scaledwidth="90%"]
 .Leave an empty hole to the left of the top row and bottom row of the pushbutton. 
 image:attachments/Figure9.JPG[scaledwidth="90%"]
 
-Connect two jumper wires to the pushbutton as shown in <<Figure 10>>.  One jumper wire is inserted in the first hole at the top row of the pushbutton and the second jumper wire is inserted in the empty bottom row of the mini breadboard.
+Connect two jumper wires to the pushbutton as shown in <<Figure10>>.  One jumper wire is inserted in the first hole at the top row of the pushbutton and the second jumper wire is inserted in the empty bottom row of the mini breadboard.
 
 [[Figure10]]
 .Jumper wires will be needed to connect the pushbutton to the MintDuino.
 image:attachments/Figure10.JPG[scaledwidth="90%"]
 
-Next, add a single 100ohm resistor (this resistor will be referred to as RES2 to the mini breadboard as shown in <<Figure 11>>.  This resistor (RES2) will have one of its leads inserted into the row where the first resistor (RES1) is inserted and the jumper wire goes to GND.  The other lead for RES2 can be inserted in a row just above the pushbutton.
+Next, add a single 100ohm resistor (this resistor will be referred to as RES2 to the mini breadboard as shown in <<Figure11>>.  This resistor (RES2) will have one of its leads inserted into the row where the first resistor (RES1) is inserted and the jumper wire goes to GND.  The other lead for RES2 can be inserted in a row just above the pushbutton.
 
 [[Figure11]]
 .Add a second resistor (RES2) to serve as a pulldown resistor for the pushbutton.
@@ -49,7 +49,7 @@ As shown in <<Figure 12>>, insert the top jumper wire of the pushbutton into the
 .Wire up the pushbutton to GND and to +5V.
 image:attachments/Figure12.JPG[scaledwidth="90%"]
 
-Finally, add two more jumper wires – insert one into the bottom row of the mini breadboard that will also go to +5V on the MintDuino – we’ll call this the JUMPV.  The other jumper wire will be inserted where the pushbutton’s top jumper wire and RES2 are inserted and this new jumper wire will go to Digital Pin 4 (or Pin 6 on the ATmega chip) – we’ll call this JUMP4.  Both of these new jumper wires can be seen in <<Figure 13>>.
+Finally, add two more jumper wires – insert one into the bottom row of the mini breadboard that will also go to +5V on the MintDuino – we’ll call this the JUMPV.  The other jumper wire will be inserted where the pushbutton’s top jumper wire and RES2 are inserted and this new jumper wire will go to Digital Pin 4 (or Pin 6 on the ATmega chip) – we’ll call this JUMP4.  Both of these new jumper wires can be seen in <<Figure13>>.
 
 [[Figure13]]
 .Connect the circuit to the MintDuino.
