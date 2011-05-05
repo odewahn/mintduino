@@ -1,21 +1,3 @@
 DCPS Error Log
 
-== Error 1
-
-book.xml:458: element xref: validity error : Syntax of value for attribute linkend of xref is not valid
-
-
-----
-<simpara>As shown in <xref linkend="Figure 12"/>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (the one not sharing GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).</simpara>
-
-
-----
-== Error 4
-
-book.xml:559: element xref: validity error : IDREF attribute linkend references an unknown ID "Figure 12"
-
-
-----
-
-
-----
+No errors found
