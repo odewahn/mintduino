@@ -1,0 +1,8 @@
+image:attachments/cover_image.png[]
+
+*Author name*: James Floyd Kelly
+
+*Bio*: Ehendunt, cupta con re, cus exerita tquisciissit quam derovidunt ut ut licipie nienima eum hicid quianis earis magnime autatet vendanda eost, im aut mint-iumqui de velitatecus soluptatet ex et et excerum liquia volorib earupid endigent ex etur 
+sitatia inulloreri dolor modisti strum. 
+
+*Title*: MintDuino: Fundamentals of how microcontrollers work
