@@ -4,7 +4,7 @@
 
 *Tagline (in yellow box)* : Build your own Arduino compatible board 
 
-*Author Bio*: *Author name*.  Ehendunt, cupta con re, cus exerita tquisciissit quam derovidunt ut ut licipie nienima eum hicid quianis earis magnime autatet vendanda eost, im aut mintiumqui de velitatecus soluptatet ex et et excerum liquia volorib earupid endigent ex etur sitatia inulloreri dolor modisti strum.
+*Author Bio*:  Ehendunt, cupta con re, cus exerita tquisciissit quam derovidunt ut ut licipie nienima eum hicid quianis earis magnime autatet vendanda eost, im aut mintiumqui de velitatecus soluptatet ex et et excerum liquia volorib earupid endigent ex etur sitatia inulloreri dolor modisti strum.
 
 *Marketing copy (will appear on back cover, ebook, web, etc)*
 
