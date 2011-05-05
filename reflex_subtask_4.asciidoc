@@ -42,7 +42,7 @@ Next you’ll connect the anode lead from each LED to the ATmega chip.  Connect 
 
 [[Figure18]]
 .Connect LEDs to the MintDuino with jumper wires.
-image:attachments/Figure18.JPG[scaledwidth="90%"]
+image::attachments/Figure18.JPG[scaledwidth="90%"]
 
 [NOTE]
 ====
@@ -53,7 +53,7 @@ We now need to finish wiring up the Player 2 button (the Player 1 button keeps t
 
 [[Figure19]]
 .Connect the Player 2 pushbutton to the MintDuino.
-image:attachments/Figure19.JPG[scaledwidth="90%"]
+image::attachments/Figure19.JPG[scaledwidth="90%"]
 
 Now it’s time to program the MintDuino so that a player’s LED will light up when that player’s pushbutton is pressed.  You can download the program for Sub-Task 4 at [URL here] or simply enter the code below into the Arduino IDE:
 
