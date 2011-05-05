@@ -6,3 +6,7 @@ image:attachments/cover_image.png[]
 sitatia inulloreri dolor modisti strum. 
 
 *Title*: MintDuino: Fundamentals of how microcontrollers work
+
+*Yellow Bar Text*: Make your own Arduino compatible board
+
+*Marketing Text (this will appear on back cover, website, ebook, etc)*
