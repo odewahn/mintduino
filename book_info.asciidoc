@@ -1,17 +1,10 @@
-*Name as it will appear on the cover*
---------------------------------------------
-James Floyd Kelly
+*Name as it will appear on the cover* : James Floyd Kelly
 
-*Title & Subtitle*
--------------------
-MintDuino: Fundamentals of How Microcontrollers Work
+*Title & Subtitle* : MintDuino: Fundamentals of How Microcontrollers Work
 
-*Tagline (in yellow box)*
-----------------------------
-Build your own Arduino compatible board 
+*Tagline (in yellow box)* : Build your own Arduino compatible board 
 
-
-*Author Bio*
+*Author Bio*: *Author name*.  Ehendunt, cupta con re, cus exerita tquisciissit quam derovidunt ut ut licipie nienima eum hicid quianis earis magnime autatet vendanda eost, im aut mintiumqui de velitatecus soluptatet ex et et excerum liquia volorib earupid endigent ex etur sitatia inulloreri dolor modisti strum.
 
 *Marketing copy (will appear on back cover, ebook, web, etc)*
 
