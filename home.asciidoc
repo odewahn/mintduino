@@ -1,5 +1,9 @@
 = Title of this book
 
+== Book Information
+
+[[book_info]]
+
 == Introduction
 
 [[intro]]
