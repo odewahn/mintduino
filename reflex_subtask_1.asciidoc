@@ -1,13 +1,13 @@
 We’ll start with Sub-Task 1 and assemble a small circuit to light a single LED.  The components you will need include:
 
 * 1 MintDuino - assembled (see http://makeprojects.com/Project/Build-a-Mintronics-MintDuino/608/1 for assembly instructions)
-* 1 LED (yellow recommended, but any color will work)
 * 1 9V battery
 * 1 FTDI adapter such as the FTDI Friend (see http://www.makershed.com/ProductDetails.asp?ProductCode=MKAD22)
 * 1 USB cable (A to mini-B type)
 
 Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
 
+* 1 LED (A red LED comes with the survival pack but you can use any color you like)
 * 1 Mini breadboard
 * 1 9V battery connector
 * 1 Resistor 100 ohm (minimum)
