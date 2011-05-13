@@ -1,28 +1,25 @@
-The MintDuino Reflex Game will test the reflexes of two players.  The game takes place on the small Mini-Breadboard, with each player waiting to push a button when an LED in the center (the Game Light) of the breadboard lights up.  The Game Light will light up after a random amount of time has passed (something between say 5 and 10 seconds).  Whichever player pushes their button first after the Game Light LED lights up wins and a green LED will light up on the side of the winning player.  
+The MintDuino Reflex Game will test the reflexes of two players.  The game takes place on the small mini breadboard, with each player waiting to push a button when an LED in the center (the Game Light) of the breadboard lights up.  The Game Light will light up after a random amount of time has passed (for example, something between 5 and 10 seconds).  Whichever player pushes their button first after the Game Light LED lights up wins the game, and a green LED will light up on the side of the winning player.  
 
 That's The Big Project, but let's break it down into four sub-tasks that will help us understand the proper wiring of the MintDuino and the electronics components and the programming elements required:
 
-. Wire up and program the MintDuino to light an LED - this will help us to not only light the Game Light but also the winning player's green LED.
-. Wire up and light an LED after a Random Wait Time- we will learn how to light an LED after waiting a random amount of time.
-. Wire up and program an LED to light up when the pushbutton is pressed - this will help us to understand the proper wiring of a pushbutton as well as how to use it as a trigger for another event (lighting an LED in this case).
-.  Wire and program two pushbuttons to light up a pushbutton's matching LED when pressed - Now we'll figure out how to trigger the correct LED when its paired pushbutton is pressed.
+. Wire up and program the MintDuino to light an LED—this will help us to not only light the Game Light but also the winning player's green LED.
+. Wire up and light an LED after a random wait time—you will learn how to light an LED after waiting a random amount of time.
+. Wire up and program an LED to light up when the pushbutton is pressed—this will help you to understand the proper wiring of a pushbutton as well as how to use it as a trigger for another event (lighting an LED in this case).
+.  Wire and program two pushbuttons to light up a pushbutton's matching LED when pressed—now you'll figure out how to trigger the correct LED when its paired pushbutton is pressed.
 
-Once we understand what's required to light LEDs, wait a random amount of time, and test for pushbuttons to be pressed, we can pull it all together and build the MintDuino Reflex Game.  The fact that we'll have multiple LEDS shouldn't be a problem - if we know how to light one, well... we can light two... or three.  And if we know how to determine if a pushbutton has been pressed, we can probably figure out how to detect which of two pushbuttons has been pressed.  Then we add some code to start the game, check for a pre-mature button push, and reset the game... and we're in business.
+Once you understand what's required to light LEDs, wait a random amount of time, and test for pushbuttons to be pressed, you can pull it all together and build the MintDuino Reflex Game.  The fact that you'll have multiple LEDS shouldn't be a problem—if you know how to light one, well... you can light two... or three.  And if you know how to determine if a pushbutton has been pressed, you can probably figure out how to detect which of two pushbuttons has been pressed.  Then you add some code to start the game, check for a premature button push, and reset the game... and we're in business.
 
 The complete Bill of Materials for this project is below, but you’ll find a partial list of components with each sub-task that contains only those items used in that particular section.  An * indicates a component that is included in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack from MakerShed].
 
-* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
+* Qty-1 MintDuino—assembled (see http://makeprojects.com/Project/Build-a-Mintronics-MintDuino/608/1 for assembly instructions)
 * Qty-1 LED (A red LED comes with the survival pack but you can use any color you like)*
 * Qty-1 9V battery
-* Qty-1 FTDI adapter [URL link here]
+* 1 FTDI adapter such as the FTDI Friend (see http://www.makershed.com/ProductDetails.asp?ProductCode=MKAD22)
 * Qty-1 USB cable (A to mini-B type)
 * Qty-1 Mini breadboard *
 * Qty-1 9V battery connector (comes with the MintDuino)
-* Qty-3 Resistor 100ohm (color code is brown-black-black) *
+* Qty-3 Resistor 100 ohm (color code is brown-black-black) *
 * Qty-13 Jumper Wires 
 
 [NOTE]
-====
 This MintDuino Notebook will provide you with the sample code required to test various circuits and electronics components, but it will not be able to provide a comprehensive tutorial on programming the MintDuino (or an Arduino).  If you need a better understanding of the programming language used to create MintDuino sketches, you’ll want to turn to a variety of online and printed sources designed to teach beginning Arduino programming.  A few of these resources can be found at the end of this document.
-====
-
