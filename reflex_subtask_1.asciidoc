@@ -7,7 +7,7 @@ We’ll start with Sub-Task 1 and assemble a small circuit to light a single LED
 
 Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
 
-* 1 LED (A red LED comes with the survival pack but you can use any color you like)
+* 1 LED (one red and one green LED comes with the Survival Pack but you can use any color you like)
 * 1 Mini breadboard
 * 1 9V battery connector
 * 1 Resistor 100 ohm (minimum)
@@ -31,9 +31,13 @@ Before you continue, there are a few things you need to know when using the mini
 * When wiring, rotate the mini breadboard so that it is taller than it is wider (seen in <<Figure2>); with this orientation, each row is broken into two segments of five holes.
 * The five holes in each segment share a common connection point; when inserting components, make certain that leads are inserted in different segments and not in the same grouping of five holes or the component will be shorted.
 
-Take notice also that the LED has one leg that is shorter than the other.  The longer leg is referred to as the _anode_, or + lead (positive), and the shorter leg is referred to as the _cathode_ or – lead (negative).  When connecting an LED to a circuit, try to remember to connect the + lead to the voltage/supply side of a circuit and the – lead to the GND (ground) side of a circuit.
+Take notice also that the LED has one leg that is shorter than the other.  The longer leg is referred to as the _anode_, or + lead (positive), and the shorter leg is referred to as the _cathode_ or – lead (negative).  When connecting an LED to a circuit, you must remember to connect the + lead to the voltage/supply side of a circuit and the – lead to the GND (ground) side of a circuit.
 
 Because you haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.
+
+////
+I think it would be better to tell the reader which side the long lead should go on, to avoid future confusion.
+////
 
 [NOTE]
 One useful way to always remember how an LED is inserted into the mini breadboard is to insert the longer (+) lead closer to the MintDuino.  If you try to be consistent using this method, you’ll always be able to look at an inserted LED and determine which lead is the anode and which is the cathode.
@@ -46,12 +50,12 @@ Next, you’ll use two jumper wires to connect the mini breadboard to the MintDu
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
 image::attachments/Figure3.JPG[scaledwidth="90%"]
 
-Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino] then you’ll want to connect the jumper wire sharing the LED’s anode lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole on Row 21.
+Now you’ll connect the two jumper wires to the MintDuino.  If you’ve built your MintDuino based on the online building instructions found at http://makeprojects.com/Project/How-to-build-a-Mintronics-MintDuino/608/1[Build a Mintronics: MintDuino] then you’ll want to connect the jumper wire connected to the LED’s anode (+) lead to Pin 13 on the ATmega 328 chip.  This corresponds to Row 21 on the MintDuino (again, if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole from a through e on Row 21.
 
 [NOTE]
 Pin 13 corresponds to Digital Pin 7 – this information will be required shortly when we write the program to test the LED.
 
-Plug the other jumper wire into any hole on the GND column of the MintDuino.  Double-check this and make absolute certain that you’ve connected it to a GND column and not the PWR (5v or 3.3v) column.
+Plug the other jumper wire from the LED's cathode (-) into any hole on the GND column of the MintDuino.  Double-check this and make absolute certain that you’ve connected it to a GND column and not the PWR (5v or 3.3v) column.
 
 <<Figure4>> shows the two jumper wires now connecting the mini breadboard to the MintDuino.
 
@@ -66,6 +70,11 @@ include::attachments/SubTask1_draft1.0.pde[]
 ----
 
 Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.
+
+////
+One thing is missing. The FTDI Friend won't supply power to the MintDuino, so you need to connect the battery
+before you can upload a sketch. Can you update the text and the photo?
+////
 
 [[Figure5]]
 .Add the FTDI Friend (Adapter) to the MintDuino and upload the sketch. 
