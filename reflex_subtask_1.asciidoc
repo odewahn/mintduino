@@ -17,7 +17,7 @@ Plus, you'll need the following components, all of which are available in the ht
 
 [[Figure1]]
 .Components required to assemble circuit for Sub-Task 1
-image::attachments/Figure1.JPG[width="scaledwidth=90%"]
+image::attachments/Figure1.JPG[scaledwidth="90%"]
 
 You'll start the assembly of Sub-Task 1 by inserting the LED and resistor (refer to this resistor as RES1 for all sub-tasks) into the mini breadboard as shown in <<Figure2>>.
  
