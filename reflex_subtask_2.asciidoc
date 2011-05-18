@@ -1,17 +1,4 @@
-Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 include:
-
-* 1 MintDuino - assembled
-* 1 9V battery
-* 1 FTDI adapter such as the FTDI Friend (see http://www.makershed.com/ProductDetails.asp?ProductCode=MKAD22)
-* 1 USB cable (A to mini-B type)
-
-Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
-
-* 1 LED (one red and one green LED comes with the Survival Pack but you can use any color you have handy)
-* 1 Mini breadboard
-* 1 9V battery connector
-* 1 Resistor 100 ohm (minimum)
-* 2 Jumper Wires
+Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 are identical to those listed in <<reflex_subtask_1>>.
 
 You can download the program for Sub-Task 2 at http://examples.oreilly.com/0636920020882/ or simply enter the code below into the Arduino IDE:
 
