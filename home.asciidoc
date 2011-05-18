@@ -1,6 +1,6 @@
 = Title of this book
 
-== Book Info
+== Book Information
 
 [[book_info]]
 

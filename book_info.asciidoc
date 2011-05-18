@@ -1,12 +1,21 @@
-image:attachments/cover_image.png[]
+*Name as it will appear on the cover* : James Floyd Kelly
 
-*Author name*: James Floyd Kelly
+*Title & Subtitle* : MintDuino: Fundamentals of How Microcontrollers Work
 
-*Bio*: http://jamesfloydkelly.com[James Floyd Kelly] is a full-time writer from Atlanta, Georgia.  He has a B.A. in English and an B.S. in Industrial Engineering and enjoys writing about technology.  He is the founder of TheNXTStep (http://www.thenxtstep.com[www.thenxtstep.com]), a blog dedicated to the LEGO Mindstorms NXT, and recently completed work on Hands-On Electronics (http://handsonelectronics.blogspot.com[handsonelectronics.blogspot.com]), a blog that documented his experiences working through the O'Reilly book, Make: Electronics by Charles Platt.  He has written books about LEGO Mindstorms, CNC and 3D printing technologies, tablets, and open source software.  His latest project is Hands-On Arduino (http://handsonarduino.blogspot.com[handsonarduino.blogspot.com]).
+*Tagline (in yellow box)* : Build your own Arduino compatible board 
 
-*Title*: MintDuino
+*Author Bio*:  Ehendunt, cupta con re, cus exerita tquisciissit quam derovidunt ut ut licipie nienima eum hicid quianis earis magnime autatet vendanda eost, im aut mintiumqui de velitatecus soluptatet ex et et excerum liquia volorib earupid endigent ex etur sitatia inulloreri dolor modisti strum.
 
-*Yellow Bar Text*: Simple Electronics Projects
+*Marketing copy (will appear on back cover, ebook, web, etc)*
 
-*The MintDuino is a fun and easy device for you to build, but putting it together is really only the beginning.  From there, your imagination is the only limitation when it comes to providing the MintDuino with other capabilities.  Beginners are often overwhelmed and uncertain where to start when it comes to turning an idea into reality.  And that's where MintDuino Notebook 1 will help - by demonstrating how a basic MintDuino game between two players can be "built up" by starting small and adding features, bit by bit.
-With just a few extra LEDs and pushbuttons and some jumper wires, MintDuino Notebook 1 will show you how to transform your MintDuino into a simple game.  You'll start by wiring up a single LED and then learning to control it with a pushbutton.  Later you'll learn how to add more LEDs and how to use an extra pushbutton to create the final challenge for the Notebook - building the MintDuino Reflex Game.
+Sant et voluptas est ent experum aute culparum elentibus parum, earibus aut reped minimpore volorum eumquiassi di a quam, nonsequo mi, sa consedi genihicit magnient expliquo del maximus reribus eumet aspero tem cum as quas nulpa vit volorro et qui bea venis net facit, commod qui rempe sim que quam inimet vent et am, tet lab id mi, qui ut 
+min et, voluptatur? Et fugitibus, saecum, omnihit emporestis.
+
+Dolluptio bearuptatur? Quidi volor sequam quiat. Ad utam eic te minusa culparciis dis ma nonsectur. Eriatur, namenie nimolecto occabores quas voluptatquia nim enienti berate none plignis aut volore, sit ut offic tent por aspedit, cum is reni coreste voloria es sunt Am, sitinvenist, quiatur?
+
+* Epudae magnatur aut unti dus expliquis accus as qui expedita
+*  Con nimporum id que non estem nonsedis audiatus
+*  Accum fuga. Sed magnatem experovita volorib usaerfe ratessuntium voluptatios eriorum, optatiunto quatenecusda voluptium int quias inus dellorio.
+* Audit veliaeprat fugita idemporeheni verum facesti aute lit ut
+* Anis re repedipsum ut hilibusant.
+* Ant, volestem lam ium rem in nobitat
