@@ -47,6 +47,10 @@ I’ve also inserted RES1 so that one of its leads shares a row with the cathode
 
 Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Inser the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>.
 
+////
+You should have the reader use black wire for the connection to ground, or they will run out of the blue wire in Subtask 3. (that's assuming they are using the Survival pack).
+////
+
 [[Figure3]]
 .Two jumper wires will connect the mini breadboard to the MintDuino. 
 image::attachments/Figure3.JPG[scaledwidth="90%"]
