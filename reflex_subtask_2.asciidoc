@@ -1,6 +1,6 @@
 Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 include:
 
-* Qty-1 MintDuino - assembled
+* 1 MintDuino - assembled
 * 1 9V battery
 * 1 FTDI adapter such as the FTDI Friend (see http://www.makershed.com/ProductDetails.asp?ProductCode=MKAD22)
 * 1 USB cable (A to mini-B type)
