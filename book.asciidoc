@@ -1,4 +1,4 @@
-= Title of this book
+= MintDuino
 
 == Introduction
 
@@ -27,4 +27,3 @@ include::reflex_subtask_4.asciidoc[]
 === Sub-Task5 
 
 include::reflex_subtask_5.asciidoc[]
-
