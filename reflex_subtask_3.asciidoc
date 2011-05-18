@@ -1,19 +1,9 @@
-Sub-Task 3 will require the following components:
+Sub-Task 3 will add to the same circuit you assembled for Sub-Tasks 1 and 2 by introducing the single pushbutton component to the mini breadboard, as seen in <<Figure7>>. Sub-Task 3 will require the following additional components beyond what you've already assembled. All of these are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
 
-* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
-* Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)*
-* Qty-1 9V battery
-* Qty-1 FTDI adapter [URL link here]
-* Qty-1 USB cable (A to mini-B type)
-* Qty-1 Mini breadboard*
-* Qty-1 9V battery connector (included with the MintDuino)
-* Qty-2 Resistor 100ohm*
-* Qty-6 Jumper Wires 
-* Qty-1 Pushbutton *
-
-*indicates a component that can be found in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack].
-
-Sub-Task 3 will add to the same circuit you assembled for Sub-Tasks 1 and 2 by introducing the single pushbutton component to the mini breadboard, as seen in <<Figure7>>.
+* 1 Resistor 100 ohm (minimum)
+* 1 red jumper wire (3 inches in length)
+* 3 blue jumper wires (make two of them 2 inches in length and one of them 4 inches. They can be any color except red or black)
+* 1 Pushbutton
 
 [[Figure7]]
 .A single pushbutton that will light the LED when pressed.
@@ -43,13 +33,17 @@ Next, add a single 100ohm resistor (this resistor will be referred to as RES2 to
 .Add a second resistor (RES2) to serve as a pulldown resistor for the pushbutton.
 image::attachments/Figure11.JPG[scaledwidth="90%"]
 
-As shown in <<Figure12>>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (the one not sharing GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).
+As shown in <<Figure12>>, insert the top jumper wire of the pushbutton into the row containing only a RES2 lead (not the row that shares GND with RES1) and insert the bottom jumper wire of the pushbutton into the bottom (empty) row of the mini breadboard (which will serve as +5V supply for the mini breadboard).
 
 [[Figure12]]
 .Wire up the pushbutton to GND and to +5V.
 image::attachments/Figure12.JPG[scaledwidth="90%"]
 
-Finally, add two more jumper wires – insert one into the bottom row of the mini breadboard that will also go to +5V on the MintDuino – we’ll call this the JUMPV.  The other jumper wire will be inserted where the pushbutton’s top jumper wire and RES2 are inserted and this new jumper wire will go to Digital Pin 4 (or Pin 6 on the ATmega chip) – we’ll call this JUMP4.  Both of these new jumper wires can be seen in <<Figure13>>.
+Finally, add two more jumper wires—insert the red one into the bottom row of the mini breadboard and connect it to +5V on the MintDuino—we’ll call this the JUMPV.  Insert the other jumper wire where the pushbutton’s top jumper wire and RES2 are inserted. Then connect this new jumper wire to Digital Pin 4 (or Pin 6 on the ATmega chip)—we’ll call this JUMP4. This corresponds to Row 14 on the MintDuino (only if you’ve taken care to wire it up exactly as the online instructions specify).  You can plug that jumper wire into any free hole from a through e on Row 14. Both of these new jumper wires can be seen in <<Figure13>>.
+
+////
+It's hard to see for sure, but in the photo, it looks like it's plugged into pin 5 on the ATmega chip (row 13).
+////
 
 [[Figure13]]
 .Connect the circuit to the MintDuino.
@@ -61,27 +55,20 @@ Now you will program the the LED to light up after the pushbutton is pressed.  Y
 include::attachments/SubTask3_draft1.0.pde[]
 ----
 
-Now connect the mini breadboard to the MintDuino as follows:
-
-. Connect the JUMPV wire (on bottom row of mini breadboard) to the +5V column on the MintDuino.
-. Connect JUMP4 to pin 6 on the ATmega chip (corresponding to Digital Pin 4).
-. Verify the LED jumper wire is connected to pin 13 on the ATmega chip (Digital Pin 7).
-. Verify the GND jumper wire (where RES1 and RES2 terminate) is connected to GND on the MintDuino.
-
 Upload the sketch to the MintDuino and the following will occur:
 
 . The LED will not light (at first) as it waits for the button to be pressed.
 . The program will loop forever, waiting for the button to be pressed.
-. When the button is pressed, the state is set to HIGH.
-. If the state is HIGH, the lightLED function is called.
-. When the lightLED function is called, the LED stays lit for 1 second and then turns off.
+. When you press the button, the +state+ variable is set to HIGH.
+. If +state+ is HIGH, the +lightLED+ function is called.
+. When the +lightLED+ function is called, the LED stays lit for 1 second and then turns off.
 . The program waits for the button to be pressed again.
 
 Now we’re getting close.  We know how to light an LED, create random time before the LED lights up, and we know how to wire up a button to light up the LED.  But to make this a real game, there must be at least two opponents, and that means adding a second button to the mix… which is exactly what we’ll do in Sub-Task 4.
 
 [NOTE]
 ====
-If the LED is not lighting up when you press the pushbutton, check your wiring.  The pushbutton must be connected to +5 volts – check that a jumper wire (JUMPV) is connecting the pushbutton to the bottom row of the mini breadboard that is supplying the voltage.
-Also verify that the other jumper wire leaving the pushbutton is sharing a row with RES2 and JUMP4 that should be inserted into pin 6 on the ATmega chip.  
-====
+If the LED is not lighting up when you press the pushbutton, check your wiring.  The pushbutton must be connected to +5 volts—check that a jumper wire (JUMPV) is connecting the pushbutton to the bottom row of the mini breadboard that is supplying the voltage.
 
+Also verify that the other jumper wire leaving the pushbutton is sharing a row with RES2 and JUMP4 on one end, and in inserted into pin 6 on the ATmega chip on the other end.
+====
