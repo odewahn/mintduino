@@ -5,6 +5,11 @@ Sub-Task 3 will add to the same circuit you assembled for Sub-Tasks 1 and 2 by i
 * 3 blue jumper wires (make two of them 2 inches in length and one of them 4 inches. They can be any color except red or black)
 * 1 Pushbutton
 
+[NOTE]
+====
+By the end of this Sub-Task, you will probably have exhausted the supply of jumper wire that came with the Survival Pack, and will need to dip into your jumper wire kit if you haven't already.
+====
+
 [[Figure7]]
 .A single pushbutton that will light the LED when pressed.
 image::attachments/Figure7.JPG[scaledwidth="90%"]
