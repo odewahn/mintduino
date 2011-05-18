@@ -70,5 +70,5 @@ Now we’re getting close.  We know how to light an LED, create random time befo
 ====
 If the LED is not lighting up when you press the pushbutton, check your wiring.  The pushbutton must be connected to +5 volts—check that a jumper wire (JUMPV) is connecting the pushbutton to the bottom row of the mini breadboard that is supplying the voltage.
 
-Also verify that the other jumper wire leaving the pushbutton is sharing a row with RES2 and JUMP4 on one end, and in inserted into pin 6 on the ATmega chip on the other end.
+Also verify that the other jumper wire leaving the pushbutton is sharing a row with RES2 and JUMP4 on one end, and is inserted into pin 6 on the ATmega chip on the other end.
 ====
