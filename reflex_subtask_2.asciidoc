@@ -1,36 +1,39 @@
 Sub-Task 2 will use the same circuit you assembled for Sub-Task 1; we will simply make a change to the programming that will light up the LED after a random number of seconds has elapsed.   The parts required for Sub-Task 2 include:
 
-* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
-* Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)* 
-* Qty-1 9V battery
-* Qty-1 FTDI adapter [URL link here]
-* Qty-1 USB cable (A to mini-B type)
-* Qty-1 Mini breadboard* 
-* Qty-1 9V battery connector (included with the MintDuino)
-* Qty-1 Resistor 100ohm* 
-*Qty-2 Jumper Wires 
+* Qty-1 MintDuino - assembled
+* 1 9V battery
+* 1 FTDI adapter such as the FTDI Friend (see http://www.makershed.com/ProductDetails.asp?ProductCode=MKAD22)
+* 1 USB cable (A to mini-B type)
 
-*indicates a component that can be found in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack].
+Plus, you'll need the following components, all of which are available in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack]:
 
-You can download the program for Sub-Task 2 at [URL here] or simply enter the code below into the Arduino IDE:
+* 1 LED (one red and one green LED comes with the Survival Pack but you can use any color you have handy)
+* 1 Mini breadboard
+* 1 9V battery connector
+* 1 Resistor 100 ohm (minimum)
+* 2 Jumper Wires
+
+You can download the program for Sub-Task 2 at http://examples.oreilly.com/0636920020882/ or simply enter the code below into the Arduino IDE:
 
 ----
 include::attachments/SubTask2_draft1.0.pde[]
 ----
 
-After you upload this sketch to the MintDuino, the following will occur:
+After you upload this sketch to the MintDuino, and each time you reboot or power up the MintDuino, the following will occur once:
 
-. The Wait Time for the LED will be initialized with a value of 2000 milliseconds (2 seconds).
-. A random seed will be generated using Analog Pin 1 and random noise from that unused pin.
-. A loop will start and a random value between 0 and 5000 milliseconds will be added to the current Wait Time value of 2000 milliseconds.
-. Three fast flashes occur, alerting game players to begin watching for the game LED to light.
-. There will be a random pause (based on a value between 2000 and 7000 milliseconds).
+. The minimum wait time for turning on the LED will be initialized with a value of 2000 milliseconds (2 seconds).
+. A random seed will be generated using ambient noise (fluorescent lights, cosmic rays, radio waves, etc.) that analog pin 1 picks up.
+
+Next, as long as the MintDuino is running (until you turn it off or its battery dies), the following actions occur over and over:
+
+. The main loop of the sketch starts and a random value between 0 and 5000 milliseconds will be added to the minimum wait time to generate a value between 2000 (2 seconds) and 7000 (7 seconds).
+. A _for loop_, which sets the variable +count+ to 0, 1, and 2 in order, comes next. I don't use the variable +count+ for anything other than making sure the code inside the loop runs exactly three times. This causes three fast flashes of the LED, alerting game players to begin watching for the game LED to light.
+. Next, there is a random pause (based on a value between 2000 and 7000 milliseconds).
 . The LED will light and hold for two seconds.
-. The LED will turn off and a five second delay will occur.
-. The Wait Time is reset to a minimum of two seconds.
-. The loop begins again with a random value between 0 and 5000 milliseconds) added to the reset Wait Time and three fast flashes of the LED.
+. The LED will turn off and remain off for a five second delay.
+. The loop begins again (back to step 1).
 
-As you can see, the beginnings of the MintDuino Reflex Game are starting to appear.  We have a random amount of time that will pass before the LED lights up – this is what the two players will be waiting to see before they push their buttons.
+As you can see, the beginnings of the MintDuino Reflex Game are starting to appear.  We have a random amount of time that will pass before the LED lights up–this is what the two players will be waiting to see before they push their buttons.
 
 And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Task 3 and learn how to light that LED by pressing a pushbutton.  Unplug the USB cable from the FTDI/MintDuino and make no changes to the wiring of the LED and RES1.
 
@@ -38,5 +41,5 @@ And buttons is what we need to learn how to use now.  We’ll next tackle Sub-Ta
 ====
 If you managed to get the LED to light in Sub-Task 1, then any problems you’ll likely have with Sub-Task 2 will exist in the program itself.  
 
-If you’re not seeing the initial three quick flashes of the LED, check your code to make certain you’re not using the ledWait variable to control the on-and-off lighting.  If you’re not getting a random wait after the three initial flashes (for example, if the delay is always the same number of seconds), make certain you included the last bit of code that resets the ledWait variable to 2000.
+If you’re not seeing the initial three quick flashes of the LED, check your code to make certain you’re not using the ledWait variable to control the on-and-off lighting in the +for+ loop (there should be two delays of 250 milliseconds in the +for+ loop).  If you’re not getting a random wait after the three initial flashes (for example, if the delay is always the same number of seconds), make certain that you're using +ledWait+ to calculate the delay before taking the pin high right after the +for+ loop.
 ====
