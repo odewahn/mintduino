@@ -1,18 +1,13 @@
-Sub-Task 4 will require the following components:
+Sub-Task 4 will require the following components beyond what you've already assembled. You will also need to 
 
-* Qty-1 MintDuino - assembled [URL link to assembly instructions here]
-* Qty-1 LED (red LED included with Survival Pack but yellow is used in figures)*
-* Qty-1 9V battery
-* Qty-1 FTDI adapter [URL link here]
-* Qty-1 USB cable (A to mini-B type)
-* Qty-1 Mini breadboard *
-* Qty-1 9V battery connector (included with the MintDuino)
-* Qty-3 Resistor 100ohm *
-* Qty-13 Jumper Wires 
-* Qty-2 Pushbutton *
-* Qty-2 LEDs (green used – 1 is included with the Survival Pack)*
+* 1 Resistor (100 ohm minimum), included in the Survival Pack
+* 5 Jumper Wires (by now, you have probably used up the jumper wire in the Survival Pack)
+* 1 Pushbutton, included in the Survival Pack
+* 2 LEDs (preferably green; the Survival Pack includes 1 green LED)
 
-*indicates a component that can be found in the http://www.makershed.com/ProductDetails.asp?ProductCode=MSTIN2[Mintronics: Survival Pack].
+////
+Update the LED description when we add another green LED to the pack
+////
 
 Sub-Task 4 will add to the circuit you assembled for Sub-Task3 by introducing a second pushbutton component and two new LEDs to the mini breadboard as seen in <<Figure14>>. 
 
