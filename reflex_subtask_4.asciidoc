@@ -1,7 +1,7 @@
 Sub-Task 4 will require the following components beyond what you've already used in the earlier sub-tasks:
 
 * 1 Resistor (100 ohm minimum), included in the Survival Pack
-* 5 Jumper Wires (by now, you have probably used up the jumper wire in the Survival Pack, so you'll need to dip into the jumper wire kit recommended in xref:the_reflex_game[])
+* 5 Jumper Wires (by now, you have probably used up the jumper wire in the Survival Pack, so you'll need to dip into the jumper wire kit recommended in xref:bill_of_materials[])
 * 1 Pushbutton, included in the Survival Pack
 * 2 LEDs (preferably green; the Survival Pack includes 1 green LED)
 
