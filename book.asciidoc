@@ -8,22 +8,22 @@ include::intro.asciidoc[]
 
 include::reflex_game.asciidoc[]
 
-=== Sub-Task 1: Light an LED
+== Sub-Task 1: Light an LED
 
 include::reflex_subtask_1.asciidoc[]
 
-=== Sub-Task 2: Randomly Light an LED
+== Sub-Task 2: Randomly Light an LED
 
 include::reflex_subtask_2.asciidoc[]
 
-=== Sub-Task 3: Light an LED with a Pushbutton
+== Sub-Task 3: Light an LED with a Pushbutton
 
 include::reflex_subtask_3.asciidoc[]
 
-=== Sub-Task 4
+== Sub-Task 4
 
 include::reflex_subtask_4.asciidoc[]
 
-=== Sub-Task5 
+== Sub-Task5 
 
 include::reflex_subtask_5.asciidoc[]
