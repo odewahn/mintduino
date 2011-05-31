@@ -4,7 +4,6 @@
 
 include::intro.asciidoc[]
 
-[[the_reflex_game]]
 == The MintDuino Reflex Game
 
 include::reflex_game.asciidoc[]
