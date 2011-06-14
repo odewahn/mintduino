@@ -37,7 +37,7 @@ Take notice also that the LED has one leg that is shorter than the other.  The l
 Because you haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.
 
 ////
-I think it would be better to tell the reader which side the long lead should go on, to avoid future confusion.
+Regarding the above, I think it would be better to explicitly instruct the reader which side the long lead should go on, to avoid future confusion, and to allow them to visually  compare their circuit to yours.
 ////
 
 [NOTE]
