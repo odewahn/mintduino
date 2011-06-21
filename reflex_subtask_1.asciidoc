@@ -34,10 +34,10 @@ Before you continue, there are a few things you need to know when using the mini
 
 Take notice also that the LED has one leg that is shorter than the other.  The longer leg is referred to as the _anode_, or + lead (positive), and the shorter leg is referred to as the _cathode_ or – lead (negative).  When connecting an LED to a circuit, you must remember to connect the + lead to the voltage/supply side of a circuit and the – lead to the GND (ground) side of a circuit.
 
-Because you haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.
+Because you haven’t wired up power to the MintDuino yet, just remember (or jot down a note here) where the longer (+) lead of the LED is located.  If you're following along with the included images, you'll want to insert the longer (+) lead closer to the left side of the mini-breadboard; this is the side that will be closest to the MintDuino once it is finally connected to the mini-breadboard.
 
 ////
-Regarding the above, I think it would be better to explicitly instruct the reader which side the long lead should go on, to avoid future confusion, and to allow them to visually  compare their circuit to yours.
+Regarding the above, I think it would be better to explicitly instruct the reader which side the long lead should go on, to avoid future confusion, and to allow them to visually  compare their circuit to yours. - Fixed by Jim June 21, 2011
 ////
 
 [NOTE]
@@ -45,10 +45,10 @@ One useful way to always remember how an LED is inserted into the mini breadboar
 
 I’ve also inserted RES1 so that one of its leads shares a row with the cathode (-) lead of the LED.  Notice in <<Figure2>> that RES1's other lead is inserted into an empty row on the mini breadboard just below the LED’s anode lead.
 
-Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Inser the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>.
+Next, you’ll use two jumper wires to connect the mini breadboard to the MintDuino. Insert one jumper wire into the same row as the LED’s anode lead.  Insert the other wire into the same row as RES1's non-shared lead (the lead not shared by the LED’s cathode lead).  This is shown in <<Figure3>>. Black wire is often chosen when making connections to GND and red wire is typically selected for making connections to voltage/power; feel free to use these colors for the jumper wires if you have them (or if you have the Survival Pack), but it is not required.
 
 ////
-You should have the reader use black wire for the connection to ground, or they will run out of the blue wire in Subtask 3. (that's assuming they are using the Survival pack).
+You should have the reader use black wire for the connection to ground, or they will run out of the blue wire in Subtask 3. (that's assuming they are using the Survival pack). - I wasn't making assumptions about the type or color of wire the reader would be using but I'll add a note specifying the color if the reader has black. - Jim
 ////
 
 [[Figure3]]
@@ -74,11 +74,11 @@ Now it’s time to upload the Sub-Task 1 program (sketch).  You can download thi
 include::attachments/SubTask1_draft1.0.pde[]
 ----
 
-Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.
+Connect the FTDI Friend (or other FTDI adapter) to your MintDuino as seen in <<Figure5>>.  This connects your computer to the MintDuino for uploading the sketch.  Remember that you'll need to provide power to the MintDuino using the 9V battery!
 
 ////
 One thing is missing. The FTDI Friend won't supply power to the MintDuino, so you need to connect the battery
-before you can upload a sketch. Can you update the text and the photo?
+before you can upload a sketch. Can you update the text and the photo?  I've updated the text and will try to reshoot a new photo soon. - Jim
 ////
 
 [[Figure5]]
